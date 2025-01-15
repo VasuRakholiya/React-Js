@@ -16,7 +16,7 @@ function App() {
   return (
     // react fragment is used to wrap multiple elements without adding extra nodes to the DOM
     <>
-    <h1>Healthy Food</h1>
+    <h1 className='Heading'>Healthy Food</h1>
     <ErrorMessage items = {food}></ErrorMessage>
     <FoodItems items={food}></FoodItems>
     </>
