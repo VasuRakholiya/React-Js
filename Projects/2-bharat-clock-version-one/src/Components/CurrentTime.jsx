@@ -1,6 +1,6 @@
-let CurrentTime = ()=>{
+let CurrentTime = () => {
   let date = new Date();
-  return <p className="lead"> 
+  return <p classNameName="lead">
     this is the current time :{date.toLocaleTimeString()}-{date.toLocaleDateString()}
   </p>
 };

@@ -1,5 +1,5 @@
-let ClockSlogun = ()=>{
-  return <p className="lead"> 
+let ClockSlogun = () => {
+  return <p classNameName="lead">
     this is a clock that shows the time in the bharat time zone
   </p>
 };
